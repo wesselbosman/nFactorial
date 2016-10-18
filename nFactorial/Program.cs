@@ -17,9 +17,9 @@ namespace nFactorial
 			//Try parse the value given as input
 			try
 			{
-				var input = int.Parse(args[0]);
+				var input = ulong.Parse(args[0]);
 				//Write the factorial value to the console as output
-				Console.WriteLine(Factorial.Calculate(Math.Abs(input)));
+				Console.WriteLine(Factorial.Calculate(input).ToString());
 			}
 			//Catch the relevant exceptions
 			catch (IndexOutOfRangeException)
