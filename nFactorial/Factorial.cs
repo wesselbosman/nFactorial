@@ -10,7 +10,21 @@ namespace nFactorial
 	{
 		public static long Calculate(long n )
 		{
-			throw new NotImplementedException();
+			var factorialTotal = 1;
+			if (n <= 1)
+			{
+				return factorialTotal;
+			}
+			else
+			{
+				for (int i = 0; i < n; i++)
+				{
+					
+				}
+
+				throw new NotImplementedException();
+			}
+			
 		}
 	}
 }
