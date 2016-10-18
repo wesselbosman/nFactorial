@@ -1,7 +1,7 @@
 # nFactorial
 
 Calculates the Factorial of an input number. Can use very large integers.
-Also benchmarks the tyime it takes to do an operation.
+Also benchmarks the time it takes to do an operation.
 
 #Sample for factorial of 60000
 Execution time was 13477 milliseconds
