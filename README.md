@@ -3,6 +3,20 @@
 Calculates the Factorial of an input number. Can use very large integers.
 Also benchmarks the time it takes to do an operation.
 
+Unit tests more behavioural as I didn't want to test the dotnet framework but rather my own method- uses MSTEST for simplicity.
+
+#Roadmap
+* Show the factorial values as scientific notation.
+* Add an async version of the factorial calculate method.
+* Consume a web service to show Chuck Norris facts while the operation is running.
+* Add a progress indicator.
+* Build a front end for Windows.
+* Build a Web front end.
+* Expose a Web API.
+* Convert to dotnet core for cross platform.
+* Create a front end using a cross platform widget library/binding.
+* Plot permutations on a graph.
+
 #Sample for factorial of 60000
 Execution time was 13477 milliseconds
 
