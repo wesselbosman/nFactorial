@@ -5,7 +5,14 @@ Also benchmarks the time it takes to do an operation.
 
 Unit tests more behavioural as I didn't want to test the dotnet framework but rather my own method- uses MSTEST for simplicity.
 
-#Roadmap
+# Example Usage
+Call the console application and provide the number you want to calculate as a command line parameter
+e.g. factorial.exe "60000" or factorial.exe 60000
+
+Sit back and get some popcorn, large numbers can be considerably more taxing in regards to execution time so please bear this in mind.
+The application will provide you with a benchmark.
+
+# Roadmap
 * Show the factorial values as scientific notation.
 * Add an async version of the factorial calculate method.
 * Consume a web service to show Chuck Norris facts while the operation is running.
